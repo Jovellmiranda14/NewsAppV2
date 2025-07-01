@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/NavBar.css"; // Make sure this file exists
+import "../style/NavBar.css";
 
 const NavBar = () => {
   const navItems = ["Home", "Posts", "Categories", "Technology", "Contact"];

@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/SidebarArticle.css"; // Ensure this path is correct
+import "../style/SidebarArticle.css";
 const articles = [
   {
     image: "../assets/image1.jpg",
@@ -43,8 +43,7 @@ const SidebarArticles = () => (
     {articles.map((article, index) => (
       <div
         key={index}
-        className="border-color-gray pb-3 mb-2 d-flex align-items-start"
-        style={{ paddingRight: "2px" }} // Add space between border and text
+        className="border-color-gray pb-2 mb-2 d-flex align-items-start"
       >
         <img
           src={article.image}
@@ -52,24 +51,24 @@ const SidebarArticles = () => (
           style={{
             width: 169,
             height: 120,
-            marginTop: "15px",
+            marginTop: "8px",
             marginLeft: "10px",
-            marginRight: "16px",
+            marginRight: "12px",
             objectFit: "cover",
             flexShrink: 0,
           }}
         />
-        <div className="mt-1">
-          <small className="text-muted" style={{ fontSize: "11px" }}>
+        <div
+          className="mt-0 pb-1"
+          style={{ marginRight: "1rem", paddingTop: "7.8px" }}
+        >
+          <small className="text-muted" style={{ fontSize: "12px" }}>
             by {article.author} | {article.date}
           </small>
-          <h5 className="mt-1 fw-bold" style={{ fontSize: "20px" }}>
+          <h5 className="mt-0 fw-bold" style={{ fontSize: "23px" }}>
             {article.title}
           </h5>
-          <p
-            className="mb-0 text-secondary"
-            style={{ fontSize: "14px", marginRight: "0.1rem" }}
-          >
+          <p className="mb-0 text-secondary" style={{ fontSize: "14px" }}>
             {article.excerpt}
           </p>
         </div>

@@ -60,7 +60,7 @@ const SidebarArticles = () => (
         />
         <div
           className="mt-0 pb-1"
-          style={{ marginRight: "1rem", paddingTop: "7.8px" }}
+          style={{ marginRight: "1rem", paddingTop: ".1px" }}
         >
           <small className="text-muted" style={{ fontSize: "12px" }}>
             by {article.author} | {article.date}

@@ -1,0 +1,7 @@
+.nav-btn:hover,
+.nav-btn:focus {
+  background-color: #860000;
+  color: #FFFFFF !important;
+  border-color: #860000 !important;
+  transition: background 0.2s, color 0.2s;
+}

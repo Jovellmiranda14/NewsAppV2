@@ -9,32 +9,28 @@ const articles = [
     excerpt: "Analysts report a strong rebound in digital ad spending...",
   },
   {
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUqO1e1mTTXQVeBH_8-Yn-61PbKqHXrzxHiQ&s",
+    image: "../assets/image2.jpg",
     author: "Alicia Tran",
     date: "June 22, 2025",
     title: "Markets Cautious Optimism",
     excerpt: "After months of hikes, the Fed hints at holding pattern...",
   },
   {
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUqO1e1mTTXQVeBH_8-Yn-61PbKqHXrzxHiQ&s",
+    image: "../assets/image3.jpg",
     author: "Marcus Liu",
     date: "June 16, 2025",
     title: "Ethereum Leads 12% Weekly Gain",
     excerpt: "Renewed institutional interest and regulatory clarity...",
   },
   {
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUqO1e1mTTXQVeBH_8-Yn-61PbKqHXrzxHiQ&s",
+    image: "../assets/image4.jpg",
     author: "Laila Mendoza",
     date: "May 2, 2025",
     title: "After Two-Year Market Freeze",
     excerpt: "A wave of physical branch shutdowns underscores...",
   },
   {
-    image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUqO1e1mTTXQVeBH_8-Yn-61PbKqHXrzxHiQ&s",
+    image: "../assets/image5.jpg",
     author: "Rahul Dasai",
     date: "April 18, 2025",
     title: "Retail Closures Accelerate",

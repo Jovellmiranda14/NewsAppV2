@@ -1,10 +1,21 @@
 .nav-btn:hover,
 .nav-btn:focus {
   background-color: #860000;
-  color: #FFFFFF !important;
+  color: #ffffff !important;
   border-color: #860000 !important;
   transition: background 0.2s, color 0.2s;
 }
 .navbar-custom-bg {
   background-color: rgba(161, 0, 0, 1);
+}
+@media (max-width: 768px) {
+  .nav-btn {
+    font-size: 16px !important;
+    min-width: 70px !important;
+    padding: 0 5px !important;
+  }
+  .navbar .d-flex {
+    gap: 18px !important;
+    margin-left: 0 !important;
+  }
 }

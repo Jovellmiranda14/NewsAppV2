@@ -5,14 +5,17 @@ const NavBar = () => {
   const navItems = ["Home", "Posts", "Categories", "Technology", "Contact"];
 
   return (
-    <nav className="navbar bg-danger text-white py-4 px-4">
-      <div className="container d-flex justify-content-center gap-5">
+    <nav className="navbar navbar-custom-bg text-white py-4 px-0 w-100">
+      <div
+        className="d-flex justify-content-center align-items-center w-100"
+        style={{ gap: "45px", marginLeft: "50px" }}
+      >
         {navItems.map((item) => (
           <button
             key={item}
             className="btn btn-outline-light nav-btn"
             style={{
-              fontSize: "1.2rem",
+              fontSize: "1.4rem",
               borderColor: "transparent",
             }}
           >

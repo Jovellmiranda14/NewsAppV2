@@ -20,8 +20,7 @@ const NavBar = () => {
             style={{
               fontSize: "20px",
               borderColor: "transparent",
-              minWidth: "90px",
-              marginBottom: "10px",
+              minWidth: "90px"
             }}
           >
             {item}

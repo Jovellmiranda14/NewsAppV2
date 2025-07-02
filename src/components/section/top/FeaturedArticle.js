@@ -82,7 +82,8 @@ const featuredArticles = [
     title: "New Education Policy Puts Emphasis on Digital Literacy",
     summary:
       "Schools across the country will integrate coding, data analysis, and online safety into core curricula by 2026.",
-  },{
+  },
+  {
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUqO1e1mTTXQVeBH_8-Yn-61PbKqHXrzxHiQ&s",
     author: "Samantha Lee",
@@ -90,7 +91,8 @@ const featuredArticles = [
     title: "New Education Policy Puts Emphasis on Digital Literacy",
     summary:
       "Schools across the country will integrate coding, data analysis, and online safety into core curricula by 2026.",
-  },{
+  },
+  {
     image:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUqO1e1mTTXQVeBH_8-Yn-61PbKqHXrzxHiQ&s",
     author: "Samantha Lee",

@@ -1,9 +1,9 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import NavBar from "../components/NavBar";
-import FeaturedArticle from "../components/FeaturedArticle";
-import Header from "../components/Header";
-import SidebarArticles from "../components/SidebarArticle";
+import NavBar from "../components/section/top/NavBar";
+import FeaturedArticle from "../components/section/top/FeaturedArticle";
+import Header from "../components/section/top/Header";
+import SidebarArticles from "../components/section/top/SidebarArticle";
 
 const ReelNewsHomePage = () => {
   return (

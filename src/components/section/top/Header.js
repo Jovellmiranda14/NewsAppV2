@@ -7,7 +7,7 @@ const headerStyle = {
 };
 
 const Header = () => (
-  <header className="text-center py-4 mt-1 border-bottom">
+  <header className="text-center py-3 mt-1 border-bottom">
     <h1 className="display-4" style={headerStyle}>
       REEL<span className="text-dark">NEWS</span>
     </h1>

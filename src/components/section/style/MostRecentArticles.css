@@ -1,0 +1,84 @@
+/* src/components/section/top/MostRecentArticles.css */
+
+.most-recent-list-item {
+  padding-top: 20px; /* Adjust top padding for each item */
+  padding-bottom: 20px; /* Adjust bottom padding for each item */
+  border-top: 1px solid #e0e0e0; /* Thin light grey border for separators */
+  /* Use !important if needed to override ListGroup.Item's default borders */
+}
+
+/* No top border for the very first item */
+.most-recent-list-item:first-child {
+  border-top: none !important;
+  padding-top: 0 !important;
+}
+
+.most-recent-number {
+  font-size: 32px !important;
+  line-height: 1;
+  color: #cccccc !important;
+  min-width: 50px; /* Base for width */
+  height: 50px; /* Set height equal to min-width for circle */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: right; /* This will be overridden by justify-content: center */
+  padding-right: 0;
+  background-color: rgba(243, 243, 243, 1);
+}
+
+.most-recent-content {
+  flex-grow: 1; /* Allow content to take remaining space */
+}
+
+.most-recent-author {
+  font-size: 0.8rem; /* Smaller font size for author */
+  color: #6c757d; /* text-muted color */
+}
+
+.most-recent-article-title {
+  font-size: 20px; /* Larger, bold title */
+  font-weight: 700; /* Bolder than fw-bold if needed */
+  line-height: 1.25; /* Tighter line height for title */
+  margin-top: 5px; /* Adjust top margin to align with image */
+  margin-bottom: 5px; /* Adjust bottom margin */
+  color: #212529; /* Darker color for title */
+}
+
+.most-recent-meta {
+  font-size: 0.85rem; /* Smaller font for category/date/read time */
+  line-height: 1.4;
+  color: #6c757d; /* text-muted color */
+}
+
+.article-card {
+  background-color: #f8f9fa; /* light gray */
+  padding: 1rem;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  transition: 0.3s;
+}
+
+.article-card.featured {
+  background-color: #212529; /* dark background */
+  color: white;
+  padding: 2rem;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.article-card.featured h5 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.article-card.featured small {
+  color: #ced4da;
+}
+.recent-articles-wrapper {
+  background-color: #fff; /* or #f8f9fa for light gray */
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.03);
+  
+}

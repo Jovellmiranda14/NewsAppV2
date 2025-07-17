@@ -9,7 +9,7 @@ const headerStyle = {
 const Header = () => (
   <header className="text-center py-3 mt-1 border-bottom">
     <h1 className="display-4" style={headerStyle}>
-      REEL<span className="text-dark">NEWS</span>
+      REELS<span className="text-dark">NEWS</span>
     </h1>
   </header>
 );
